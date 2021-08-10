@@ -1,0 +1,6 @@
+sensor:
+  - platform: mqtt
+    state_topic: "home/rtl_433"   
+    name: "433RemoteButton"
+    force_update: true
+    value_template: '{{ value_json.data }}'
