@@ -1,0 +1,14 @@
+alias: 433 Remote Button FLED Blue
+description: ''
+trigger:
+  - platform: state
+    entity_id: sensor.433remotebutton
+    to: 0x8 (Alarm)
+condition: []
+action:
+  - service: light.turn_on
+    target:
+      entity_id: light.fastled_ws2811_light
+    data:
+      color_name: blue
+mode: single
