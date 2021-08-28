@@ -1,5 +1,5 @@
 # home-assistant-rtl_433-sdr
-use rpi zero w with rtl_433 and sdr to mqtt data to home asisitant
+use rpi zero w with rtl_433 and sdr to mqtt data to home assistant
 
 - install raspberry lite, ssh
 - install rtl_433
